@@ -1,0 +1,31 @@
+{
+  "name": "nfd-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc  && node buid/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.0"
+  },
+  "devDependencies": {
+    "@eslint-kit/eslint-config-base": "^5.0.2",
+    "@eslint-kit/eslint-config-node": "^2.0.0",
+    "@eslint-kit/eslint-config-patch": "^1.0.0",
+    "@eslint-kit/eslint-config-prettier": "^5.0.0",
+    "@eslint-kit/eslint-config-typescript": "^5.2.0",
+    "@types/node": "^20.8.8",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "7.32.0",
+    "prettier": "2.3.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
